@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Digital Footprint Tracker",
+  "version": "1.0",
+  "description": "Extension to estimate carbon emissions of internet usage",
+  "permissions": ["activeTab", "idle"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
