@@ -8,7 +8,7 @@ function formatTime(seconds) {
       .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   }
   
-// Function to update the pop-up with online time and carbon emissions
+// Function to update pop-up with online time and carbon emissions
 function updatePopup() {
 chrome.runtime.getBackgroundPage((backgroundPage) => {
     const { onlineTime, carbonEmissions } = backgroundPage;
@@ -19,5 +19,5 @@ chrome.runtime.getBackgroundPage((backgroundPage) => {
 });
 }
   
-// Call the updatePopup function when the pop-up is loaded
+// Call updatePopup function when the pop-up is loaded
 document.addEventListener("DOMContentLoaded", updatePopup);
