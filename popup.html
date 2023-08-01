@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Carbon Tracker</title>
+  <title>Digital Footprint</title>
   <link rel="stylesheet" href="styles.css">
   <script src="popup.js"></script>
 </head>
 <body>
-  <div id="onlineTime">Online Time: 00:00:00</div>
-  <div id="carbonEmissions">Estimated Carbon Emissions: 0 kgCO2</div>
+  <div class="popupContainer">
+
+    <div class="header">
+      <h1>Digital Footprint</h1>
+    </div>
+
+    <div class="main">
+      <div class="left">
+        <h1>Time Online</h1>
+        <p id="timeDisplay">Loading...</p>
+      </div>
+      <div class="right">
+        <h1>CO2 Emissions</h1>
+        <p id="emissionsDisplay">Loading...</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <button id="resetButton">Reset</button>
+    </div>
+
+  </div>
 </body>
 </html>
+
