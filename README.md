@@ -4,6 +4,9 @@ Digital Footprint is a Chrome extension that calculates and displays to users th
 
 <img width="1440" alt="extension" src="https://github.com/arjun-tina/digital-footprint/assets/89415389/77a8e96e-13f0-4a14-a0db-1d9d2189fdc5">
 
+## Limitations
+Certain behaviors on the Internet, e.g. streaming video, contribute to higher carbon emissions than simple web browsing. Since Digital Footprint does not consider the specific online activities taking place in calculating the total CO2 emissions associated with a user's Internet usage, the value of CO2 emissions produced by a user's online activities as displayed by the extension should be taken as an underestimate. 
+
 ## Installation
 1. Download the latest available version and unarchive it to your preferred location.
 2. Using the Google Chrome browser, navigate to chrome://extensions/ and enable "Developer mode" in the upper right corner.
